@@ -21,7 +21,7 @@ export class ErrorPage extends PureComponent<Props> {
     return (
       <Page navModel={navModel}>
         <Page.Contents>
-          <div className="page-container page-body">
+          <div className="page-container page-body error-404-page">
             <div className="panel-container error-container">
               <div className="error-column graph-box">
                 <div className="error-row">

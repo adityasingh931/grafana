@@ -4,12 +4,19 @@
 
 .error-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  -webkit-flex-direction: column;
 }
 
 .error-row {
   display: flex;
   flex-direction: row;
+}
+
+.error-404-page {
+  min-width: 400px;
+  height: 100%;
+  padding: 0px
 }
 
 .error-column {
@@ -24,6 +31,7 @@
 .graph-box {
   width: 62%;
   padding: $space-xl $space-md;
+  margin: auto;
 }
 
 .info-box {
